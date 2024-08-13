@@ -1,4 +1,4 @@
-Rencana Pengembangan Proyek: Mendukung Kesehatan Mental Anak-anak
+"Rencana Pengembangan Proyek masa depan: Mendukung Kesehatan Mental Anak-anak
 
 Tahap 1: Pengembangan Konten Edukasi
 Penelitian dan Pengumpulan Data: Kumpulkan infogit rmasi mengenai penyakit mental yang umum di kalangan anak-anak, termasuk tanda-tanda, dampak, dan cara penanganannya.
@@ -15,4 +15,4 @@ Kampanye Awareness: Luncurkan kampanye online dan offline untuk meningkatkan kes
 
 Tahap 4: Evaluasi dan Pengembangan Lebih Lanjut
 Feedback Pengguna: Kumpulkan umpan balik dari pengguna untuk memperbaiki dan mengembangkan fitur baru yang lebih relevan.
-Pengembangan Aplikasi Mobile: Pertimbangkan untuk mengembangkan aplikasi mobile yang memudahkan akses ke layanan dan konten, serta fitur-fitur interaktif lainnya.
+Pengembangan Aplikasi Mobile: Pertimbangkan untuk mengembangkan aplikasi mobile yang memudahkan akses ke layanan dan konten, serta fitur-fitur interaktif lainnya."
