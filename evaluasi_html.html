@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Halaman ini dibuat untuk mengevaluasi dan mempraktikkan dasar-dasar HTML. Kita akan mempelajari bagaimana mengelola teks, membuat heading, paragraf, dan elemen lainnya dalam sebuah halaman web.</p>
+
+    <h2>Pengelolaan Teks</h2>
+    <p>Belajar HTML adalah <strong>keterampilan penting</strong> dalam pengembangan web. Dengan pemahaman yang <em>solid</em> tentang struktur HTML, Anda dapat membuat halaman web yang <strong>efektif</strong> dan <em>menarik</em>. Jangan lupa untuk selalu <strong>praktekan</strong> apa yang telah Anda pelajari untuk <em>memperkuat</em> keterampilan Anda.</p>
+
+    <hr>
+
+    <blockquote>
+    "Pada saat-saat tergelap kita, kita harus fokus untuk melihat cahaya."
+    <br>— Aristoteles
+    </blockquote>
+
+    <h2>Hyperlink dan Gambar</h2>
+    <p>
+    Kunjungi situs web favorit saya untuk menemukan buku-buku menarik di <a href="https://www.goodreads.com" target="_blank">Goodreads</a>.
+    </p>
+    <center>
+        <a href="https://www.goodreads.com/book/show/57390604-as-long-as-the-lemon-trees-grow" target="_blank">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1642433141i/57390604.jpg" alt="Cover Novel As Long as the Lemon Trees Grow">
+        </a>
+    </center>
+
+    <h2>Membuat Daftar</h2>
+
+    <p>Berikut adalah tiga hal yang ingin saya capai dalam satu tahun ke depan:</p>
+    <ol>
+        <li>Menulis cerita dan artikel untuk blog pribadi.</li>
+        <li>Meningkatkan soft skills serta menambah pengalaman.</li>
+        <li>Mempelajari bahasa asing baru seperti Spanyol atau Jerman.</li>
+    </ol>
+
+    <p>Berikut adalah tiga hobi atau aktivitas yang saya sukai:</p>
+    <ul>
+        <li>Membaca novel dan mengoleksi buku-bukunya.</li>
+        <li>Mendengarkan musik.</li>
+        <li>Bermain games.</li>
+    </ul>
+
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Nasywa Kayana Paramesti</td>
+            <td>18</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit" method="post">
+        <label for="fullname">Nama Lengkap:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+
+        <label for="city">Kota Tempat Tinggal:</label><br>
+        <select id="city" name="city">
+            <option value="bandung">Bandung</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="solo">Solo</option>
+            <option value="surabaya">Surabaya</option>
+        </select><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Saya setuju dengan syarat dan ketentuan</label><br><br>
+
+        <label for="comments">Pesan atau Komentar:</label><br>
+        <textarea id="comments" name="comments"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
