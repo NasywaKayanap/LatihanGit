@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+    <!-- Integrasi Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Latihan 3: Media Queries */
+        @media (max-width: 768px) {
+            aside {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Warna untuk Header, Navigasi, dan Sidebar */
+        header {
+            background-color: #f8f9fa; /* Warna yang sama dengan navbar */
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        nav.col-md-4 {
+            background-color: #f8f9fa; /* Warna yang sama dengan navbar */
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        aside {
+            background-color: #e9ecef; /* Warna lebih tua dari footer */
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #f8f9fa; /* Warna footer */
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Latihan 2: Navbar Responsif -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Latihan 1: Struktur Layout -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Header -->
+            <header class="col-12">
+                <h1>Header</h1>
+                <p>Teks dummy untuk header.</p>
+            </header>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Navigasi -->
+            <nav class="col-12 col-md-4">
+                <h2>Navigation</h2>
+                <p>Teks dummy untuk navigasi.</p>
+            </nav>
+
+            <!-- Konten Utama -->
+            <main class="col-12 col-md-8">
+                <h2>Main Content</h2>
+                <p>Teks dummy untuk konten utama.</p>
+
+                <!-- Latihan 4: Membuat Card Responsif -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Sidebar -->
+            <aside class="col-md-4">
+                <h2>Sidebar</h2>
+                <p>Teks dummy untuk sidebar.</p>
+            </aside>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Footer -->
+            <footer class="col-12 bg-light text-center p-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>Informasi singkat tentang perusahaan.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contact Info</h5>
+                        <p>Email: info@example.com</p>
+                        <p>Phone: +123456789</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Bootstrap dan JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
